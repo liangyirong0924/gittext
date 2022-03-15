@@ -19,6 +19,7 @@ public class ShopAppApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(ShopAppApplication.class, args);
+        System.out.println("hello");
     }
 
 

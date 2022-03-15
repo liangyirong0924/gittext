@@ -20,9 +20,9 @@ import java.util.List;
 
 @Service
 public class Cart1Serviceimpl implements ICart1Service {
-    @Autowired
+    @Autowired(required = false)
     CartMapper cartMapper;
-    @Autowired
+    @Autowired(required = false)
     GoodsMapper goodsMapper;
 
     @Override
